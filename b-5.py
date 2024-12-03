@@ -27,7 +27,7 @@ def calculate_avg(numbers):
 
 
 def main():
-    input_string = input("データを入力してください(スペース区切り)>")
+    input_string = input("データを入力してください(スペース区切り) > ")
     numbers = [int(x) for x in input_string.split()]
 
     total = calculate_sum(numbers)
@@ -38,7 +38,7 @@ def main():
     print(f"合計値: {total}")
     print(f"最大値: {max_value}")
     print(f"最小値: {min_value}")
-    print(f"平均値: {average}")
+    print(f"平均値: {int(average)}")
 
 
 if __name__ == "__main__":

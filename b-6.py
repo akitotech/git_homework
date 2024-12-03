@@ -2,10 +2,10 @@ import random
 
 
 def main():
-    N = int(input("サイコロの面の数は？:"))
-    M = int(input("何回振りますか？:"))
+    n = int(input("サイコロの面の数は？:"))
+    m = int(input("何回振りますか？:"))
 
-    results = [random.randint(0, N) for _ in range(M)]
+    results = [random.randint(0, n) for _ in range(m)]
     print(results)
 
 
