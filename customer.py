@@ -26,6 +26,8 @@ ieyasu = Customer(first_name="Ieyasu", family_name="Tokugawa", age=75)
 # C-1
 print(ken.full_name())  # "Ken Tanaka" という値を出力
 print(tom.full_name())  # "Tom Ford" という値を出力
+print(ieyasu.full_name())  # "Ieyasu Tokugawa" という値を出力
+
 # C-2
 print(ken.age)  # 15 という値を出力
 print(tom.age)  # 57 という値を出力
